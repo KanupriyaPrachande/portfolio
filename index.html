@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Developer Portfolio</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <h2 class="logo">Kanupriya Prachande</h2>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+            <h1>Hi, I am <span>Kanupriya Prachande</span></h1>
+
+            <!-- Dynamic typing text -->
+            <h2>
+                <span id="hero-typing"></span><span class="cursor">|</span>
+            </h2>
+            <p>Scroll down to know more!</p>
+
+
+            <div class="buttons">
+                <a href="#projects" class="btn">View Projects</a>
+                <a href="#contact" class="btn-outline">Contact Me</a>
+            </div>
+        </div>
+
+        <!-- Scroll down arrow -->
+        <a href="#about" class="scroll-down-btn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <polyline points="19 12 12 19 5 12"></polyline>
+            </svg>
+        </a>
+
+    </section>
+    <!-- ABOUT -->
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <div class="about-left section-reveal">
+                <div class="profile-image-container">
+                    <div class="profile-image-decoration"></div>
+                    <div class="profile-image">
+                        <img id="about-profile-pic" src="assets/profile-photo.jpg"
+                            alt="Profile">
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-right section-reveal">
+                <h2>About Me</h2>
+                <h3 class="about-subheading"><span id="about-typing-text"></span><span class="cursor">|</span></h3>
+                <div class="about-text">
+                    <p>
+                        Computer Science student specializing in AI, ML, and Cloud-Native technologies — based in Pune, India. I build end-to-end intelligent systems, from ML pipelines and LLM-powered tools to full-stack cloud deployments. I'm passionate about the intersection of data, automation, and real-world problem solving. I believe in learning out loud — through code, projects, and conversations. Off-screen, you'll find me lost in a good book.
+                    </p>
+                    <p class="currently-exploring">
+                        🔭 Currently exploring: <span>Machine Learning pipelines & Cloud Infrastructure</span>
+                    </p>
+                </div>
+                <div class="social-icons">
+                    <a href="https://github.com/KanupriyaPrachande" target="_blank" class="social-link" title="GitHub">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                            </path>
+                        </svg>
+                    </a>
+                    <a href="mailto:kanupriyaprachande@gmail.com" class="social-link" title="Email">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                            </path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/kanupriya-prachande-980b4b2b5/" target="_blank" class="social-link" title="LinkedIn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                            </path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="skills-page">
+        <div class="skills-page-container section-reveal">
+            <h2 class="creative-title">MY SKILLS</h2>
+
+            <div class="skills-two-panel-container">
+                <!-- PANEL 1: YouTube Player View -->
+                <div id="youtube-panel" class="youtube-panel-wrapper active-panel">
+                    <div class="youtube-main">
+                        <div class="video-player">
+                            <img src="assets/profile-photo.jpg" alt="Video Thumbnail"
+                                class="video-thumbnail" id="profile-pic">
+                            <div class="video-overlay-play">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M8 5v14l11-7z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="video-info">
+                            <h3 class="video-title">Data & ML Aspirant | Explore My Tech Stack</h3>
+                            <div class="video-metadata">
+                                <div class="channel-info">
+                                    <div class="channel-avatar">
+                                        <img src="assets/profile-photo.jpg"
+                                            alt="Channel Avatar">
+                                    </div>
+                                    <div class="channel-text">
+                                        <h4 class="channel-name">Kanupriya Prachande</h4>
+                                        <p class="channel-subs">1.2K subscribers</p>
+                                    </div>
+                                    <button class="subscribe-btn">Subscribe</button>
+                                </div>
+                                <div class="video-actions">
+                                    <div class="action-btn like-btn">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path
+                                                d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3">
+                                            </path>
+                                        </svg>
+                                        <span>12K</span>
+                                    </div>
+                                    <div class="action-btn share-btn">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <circle cx="18" cy="5" r="3"></circle>
+                                            <circle cx="6" cy="12" r="3"></circle>
+                                            <circle cx="18" cy="19" r="3"></circle>
+                                            <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+                                            <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+                                        </svg>
+                                        <span>Share</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="video-description">
+                                <p>150,000 views &bull; Live Tech Stack</p>
+                                <p>Welcome to my tech stack! Click any category on the playlist to explore the code and badges in VS Code.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="youtube-playlist">
+                        <div class="playlist-header">
+                            <h4>Skill Categories</h4>
+                            <p>7 videos</p>
+                        </div>
+                        <div class="playlist-items">
+                            <div class="playlist-item" data-category="ai_ml">
+                                <div class="item-index"><svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M8 5v14l11-7z" />
+                                    </svg></div>
+                                <div class="item-thumb ml-thumb">AI</div>
+                                <div class="item-details">
+                                    <h5>AI / ML</h5>
+                                    <p>Kanupriya Prachande</p>
+                                </div>
+                            </div>
+                            <div class="playlist-item" data-category="languages">
+                                <div class="item-index">2</div>
+                                <div class="item-thumb frontend-thumb">Py</div>
+                                <div class="item-details">
+                                    <h5>Languages</h5>
+                                    <p>Kanupriya Prachande</p>
+                                </div>
+                            </div>
+                            <div class="playlist-item" data-category="web_dev">
+                                <div class="item-index">3</div>
+                                <div class="item-thumb backend-thumb">Web</div>
+                                <div class="item-details">
+                                    <h5>Web Development</h5>
+                                    <p>Kanupriya Prachande</p>
+                                </div>
+                            </div>
+                            <div class="playlist-item" data-category="mobile_dev">
+                                <div class="item-index">4</div>
+                                <div class="item-thumb data-thumb">App</div>
+                                <div class="item-details">
+                                    <h5>Mobile Development</h5>
+                                    <p>Kanupriya Prachande</p>
+                                </div>
+                            </div>
+                            <div class="playlist-item" data-category="backend">
+                                <div class="item-index">5</div>
+                                <div class="item-thumb devops-thumb">Node</div>
+                                <div class="item-details">
+                                    <h5>Backend</h5>
+                                    <p>Kanupriya Prachande</p>
+                                </div>
+                            </div>
+                            <div class="playlist-item" data-category="databases_tools">
+                                <div class="item-index">6</div>
+                                <div class="item-thumb tools-thumb">DB</div>
+                                <div class="item-details">
+                                    <h5>Databases & Tools</h5>
+                                    <p>Kanupriya Prachande</p>
+                                </div>
+                            </div>
+                            <div class="playlist-item" data-category="cloud_devops">
+                                <div class="item-index">7</div>
+                                <div class="item-thumb devops-thumb">Ops</div>
+                                <div class="item-details">
+                                    <h5>Cloud & DevOps</h5>
+                                    <p>Kanupriya Prachande</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PANEL 2: VS Code Editor View -->
+                <div id="vscode-panel" class="vscode-panel-wrapper">
+                    <div class="vscode-window">
+                        <div class="vscode-titlebar">
+                            <div class="vscode-traffic-lights">
+                                <span class="light red"></span>
+                                <span class="light yellow"></span>
+                                <span class="light green"></span>
+                            </div>
+                            <div class="vscode-title">Kanupriya's Skills - Visual Studio Code</div>
+                            <button class="vscode-back-btn" id="back-to-youtube">&larr; Back to Channel</button>
+                        </div>
+                        <div class="vscode-body">
+                            <div class="vscode-sidebar">
+                                <div class="sidebar-title">EXPLORER</div>
+                                <div class="sidebar-section">
+                                    <div class="sidebar-section-title">SKILLS</div>
+                                    <ul class="file-tree">
+                                        <li class="file-item open active" data-file="ai_ml">
+                                            <span class="folder-icon">📁</span> ai_ml/
+                                            <ul class="sub-tree">
+                                                <li class="sub-item">📄 ai_ml.py</li>
+                                            </ul>
+                                        </li>
+                                        <li class="file-item" data-file="languages">
+                                            <span class="folder-icon">📁</span> languages/
+                                            <ul class="sub-tree">
+                                                <li class="sub-item">📄 languages.json</li>
+                                            </ul>
+                                        </li>
+                                        <li class="file-item" data-file="web_dev">
+                                            <span class="folder-icon">📁</span> web_dev/
+                                            <ul class="sub-tree">
+                                                <li class="sub-item">📄 web_dev.jsx</li>
+                                            </ul>
+                                        </li>
+                                        <li class="file-item" data-file="mobile_dev">
+                                            <span class="folder-icon">📁</span> mobile_dev/
+                                            <ul class="sub-tree">
+                                                <li class="sub-item">📄 mobile.kt</li>
+                                            </ul>
+                                        </li>
+                                        <li class="file-item" data-file="backend">
+                                            <span class="folder-icon">📁</span> backend/
+                                            <ul class="sub-tree">
+                                                <li class="sub-item">📄 backend.js</li>
+                                            </ul>
+                                        </li>
+                                        <li class="file-item" data-file="databases_tools">
+                                            <span class="folder-icon">📁</span> databases_tools/
+                                            <ul class="sub-tree">
+                                                <li class="sub-item">📄 tools.sh</li>
+                                            </ul>
+                                        </li>
+                                        <li class="file-item" data-file="cloud_devops">
+                                            <span class="folder-icon">📁</span> cloud_devops/
+                                            <ul class="sub-tree">
+                                                <li class="sub-item">📄 devops.yml</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="vscode-editor">
+                                <div class="editor-tabs">
+                                    <div class="editor-tab active" id="editor-tab-name">ai_ml.py</div>
+                                </div>
+                                <div class="editor-content-area" style="display: flex; flex-direction: column; overflow-y: auto;">
+                                    <div style="display: flex; flex: 1;">
+                                        <div class="line-numbers" id="line-numbers">
+                                            1<br>2<br>3<br>4<br>5<br>6<br>7
+                                        </div>
+                                        <pre class="code-content" id="code-content">ai_ml_stack = {
+    <span class="code-string">"core"</span>: [<span class="code-string">"Python"</span>, <span class="code-string">"Numpy"</span>, <span class="code-string">"Pandas"</span>],
+    <span class="code-string">"ml_frameworks"</span>: [<span class="code-string">"Scikit-Learn"</span>, <span class="code-string">"TensorFlow"</span>, <span class="code-string">"PyTorch"</span>],
+    <span class="code-string">"gen_ai_agents"</span>: [<span class="code-string">"LangChain"</span>, <span class="code-string">"CrewAI"</span>, <span class="code-string">"Ollama"</span>],
+    <span class="code-string">"vector_db"</span>: [<span class="code-string">"ChromaDB"</span>]
+}</pre>
+                                    </div>
+                                    <div id="vscode-badges-container" style="padding: 20px 25px; border-top: 1px solid rgba(255,255,255,0.08); background: rgba(0,0,0,0.2);">
+                                        <div style="font-size: 0.75rem; font-family: monospace; color: #8585a0; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 1px;"># Skill Badges Preview:</div>
+                                        <div id="vscode-badges-list" style="display: flex; flex-wrap: wrap; gap: 8px;">
+                                            <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+                                            <img src="https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="Numpy">
+                                            <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
+                                            <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn">
+                                            <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow">
+                                            <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch">
+                                            <img src="https://img.shields.io/badge/LangChain-121212?style=for-the-badge&logo=chainlink&logoColor=white" alt="LangChain">
+                                            <img src="https://img.shields.io/badge/CrewAI%20|%20Ollama-4B0082?style=for-the-badge" alt="CrewAI Ollama">
+                                            <img src="https://img.shields.io/badge/ChromaDB-311B92?style=for-the-badge" alt="ChromaDB">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="vscode-statusbar">
+                            <div class="status-left">
+                                <span class="status-item"><svg viewBox="0 0 24 24" width="14" height="14" fill="none"
+                                        stroke="currentColor" stroke-width="2">
+                                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                                    </svg> master*</span>
+                                <span class="status-item" id="status-error"><svg viewBox="0 0 24 24" width="14"
+                                        height="14" fill="none" stroke="currentColor" stroke-width="2">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <line x1="12" y1="8" x2="12" y2="12"></line>
+                                        <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                                    </svg> 0</span>
+                            </div>
+                            <div class="status-right">
+                                <span class="status-item" id="status-lines">Ln 7, Col 1</span>
+                                <span class="status-item">UTF-8</span>
+                                <span class="status-item" id="status-lang">Python</span>
+                                <span class="status-item">Kanupriya Prachande</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RESUME & BLOG -->
+    <section id="resume" class="resume-blog-page">
+        <div class="resume-blog-container section-reveal">
+
+            <!-- LEFT: RESUME -->
+            <div class="showcase-card glass-card">
+                <div class="showcase-content">
+                    <h2 class="creative-title sm">RESUME</h2>
+                    <p class="showcase-subtext">View or download my resume.</p>
+
+                    <div class="resume-preview">
+                        <svg viewBox="0 0 24 24" fill="none" class="resume-doc-icon" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                            <polyline points="14 2 14 8 20 8"></polyline>
+                            <line x1="16" y1="13" x2="8" y2="13"></line>
+                            <line x1="16" y1="17" x2="8" y2="17"></line>
+                            <polyline points="10 9 9 9 8 9"></polyline>
+                        </svg>
+                        <h3>My Resume</h3>
+                        <a href="https://drive.google.com/file/d/1PNujDi5RUXruEga5puaSh9c2r8-Bz6rB/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn-creative">VIEW RESUME</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RIGHT: BLOG -->
+            <div id="blog" class="showcase-card glass-card">
+                <div class="showcase-content">
+                    <h2 class="creative-title sm">BLOG</h2>
+                    <p class="showcase-subtext">Sharing my thoughts, learnings, and tech insights.</p>
+
+                    <a href="https://kanupriya-prachande.blogspot.com/" target="_blank" class="blog-preview-card">
+                        <div class="browser-top">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <div class="browser-content">
+                            <h3>Tech & Insights</h3>
+                            <p>Read about my latest experiments, tech guides, and developer stories.</p>
+                            <span class="read-more">Visit Blog &rarr;</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="projects-playlist-section">
+        <div class="playlist-header">
+            <h2 class="creative-title">My Projects</h2>
+        </div>
+
+        <div class="spotify-player-box">
+            <div class="spotify-top-bar">
+                <div class="spotify-icon">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                        <path
+                            d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z" />
+                    </svg>
+                </div>
+                <div class="spotify-title">KP's Project Playlist</div>
+                <div class="spotify-menu">⋯</div>
+            </div>
+            <div class="spotify-content">
+                <div class="playlist-carousel-wrapper">
+                    <button class="nav-btn prev-btn" id="playlist-prev" aria-label="Previous Project">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="15 18 9 12 15 6"></polyline>
+                        </svg>
+                    </button>
+
+                    <div class="playlist-carousel-container" id="playlist-track">
+                        <!-- Project 1 -->
+                        <div class="project-album-card active" data-index="0">
+                            <div class="album-art">
+                                <img src="assets/project1.png" alt="Roverlog"
+                                    onerror="this.src='c:\\Users\\Kanupriya\\OneDrive\\Desktop\\portfolio.png'">
+                                <a href="#" class="play-overlay">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M8 5v14l11-7z" />
+                                    </svg>
+                                    View Project
+                                </a>
+                            </div>
+                            <div class="album-info">
+                                <h3 class="album-title">Roverlog</h3>
+                                <p class="album-desc">A rover activity logging system that tracks, records, and visualizes rover movement data in real time. Features an intuitive dashboard with session history, path visualization, and exportable logs — built for space robotics enthusiasts and research teams.</p>
+                                <div class="album-tags">
+                                    <span>Python</span><span>OpenCV</span><span>Flask</span><span>SQLite</span>
+                                </div>
+                                <div class="album-actions">
+                                    <a href="https://youtu.be/JE8_QfsgZME" target="_blank" class="action-icon" title="Live Demo">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                            <polyline points="15 3 21 3 21 9"></polyline>
+                                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                                        </svg>
+                                    </a>
+                                    <a href="https://github.com/KanupriyaPrachande/Roverlog-" target="_blank" class="action-icon" title="GitHub">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <path
+                                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                            </path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project 2 -->
+                        <div class="project-album-card next" data-index="1">
+                            <div class="album-art">
+                                <img src="assets/project2.png" alt="DevOps TUI Dashboard"
+                                    onerror="this.src='c:\\Users\\Kanupriya\\OneDrive\\Desktop\\portfolio.png'">
+                                <a href="#" class="play-overlay">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M8 5v14l11-7z" />
+                                    </svg>
+                                    View Project
+                                </a>
+                            </div>
+                            <div class="album-info">
+                                <h3 class="album-title">NebulaOps</h3>
+                                <p class="album-desc">A terminal-style DevOps web dashboard built with a React frontend
+                                    and Node.js backend</p>
+                                <div class="album-tags">
+                                    <span>JavaScript</span><span>Python</span><span>Node.js</span><span>Vercel</span>
+                                </div>
+                                <div class="album-actions">
+                                    <a href="https://devopsapp.vercel.app/" target="_blank" class="action-icon"
+                                        title="Live Demo">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                            <polyline points="15 3 21 3 21 9"></polyline>
+                                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                                        </svg>
+                                    </a>
+                                    <a href="https://github.com/KanupriyaPrachande/NebulaOps" target="_blank"
+                                        class="action-icon" title="GitHub">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <path
+                                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                            </path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project 3 -->
+                        <div class="project-album-card next" data-index="2">
+                            <div class="album-art">
+                                <img src="assets/project3.png" alt="TrendCipher"
+                                    onerror="this.src='c:\\Users\\Kanupriya\\OneDrive\\Desktop\\portfolio.png'">
+                                <a href="#" class="play-overlay">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M8 5v14l11-7z" />
+                                    </svg>
+                                    View Project
+                                </a>
+                            </div>
+                            <div class="album-info">
+                                <h3 class="album-title">TrendCipher</h3>
+                                <p class="album-desc">An AI-powered trend analysis tool that deciphers patterns across social and market data using NLP and ML models. Provides real-time topic clustering, sentiment analysis, and visual trend reports — helping users stay ahead of emerging narratives.</p>
+                                <div class="album-tags">
+                                    <span>Python</span><span>Streamlit</span><span>NLP</span><span>Machine Learning</span>
+                                </div>
+                                <div class="album-actions">
+                                    <a href="https://trendcipher-0912.streamlit.app/" target="_blank" class="action-icon" title="Live Demo">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                            <polyline points="15 3 21 3 21 9"></polyline>
+                                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                                        </svg>
+                                    </a>
+                                    <a href="https://github.com/KanupriyaPrachande/trendcipher" target="_blank" class="action-icon" title="GitHub">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <path
+                                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                            </path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project 4 -->
+                        <div class="project-album-card next" data-index="3">
+                            <div class="album-art">
+                                <img src="assets/project4.png" alt="Atlas"
+                                    onerror="this.src='c:\\Users\\Kanupriya\\OneDrive\\Desktop\\portfolio.png'">
+                                <a href="#" class="play-overlay">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M8 5v14l11-7z" />
+                                    </svg>
+                                    View Project
+                                </a>
+                            </div>
+                            <div class="album-info">
+                                <h3 class="album-title">Atlas</h3>
+                                <p class="album-desc">An AI-powered knowledge navigation tool designed to help users explore, map, and connect complex information intelligently. Atlas uses generative AI and LangChain pipelines to answer deep queries, surface hidden insights, and build structured knowledge graphs from unstructured data.</p>
+                                <div class="album-tags">
+                                    <span>Python</span><span>Streamlit</span><span>LangChain</span><span>GenAI</span>
+                                </div>
+                                <div class="album-actions">
+                                    <a href="https://github.com/kanupriyaprachande/atlas-" target="_blank" class="action-icon" title="GitHub">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <path
+                                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                            </path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project 5 -->
+                        <div class="project-album-card" data-index="4">
+                            <div class="album-art">
+                                <img src="assets/images/reviewllama.png" alt="Reviewllama"
+                                    onerror="this.src='assets/project5.png'">
+                                <a href="#" class="play-overlay">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M8 5v14l11-7z" />
+                                    </svg>
+                                    View Project
+                                </a>
+                            </div>
+                            <div class="album-info">
+                                <h3 class="album-title">Reviewllama</h3>
+                                <p class="album-desc">A hybrid ML + LLM code review assistant that combines a TF-IDF + Logistic Regression classifier to scan PR diffs for security, bug, and performance anti-patterns with Gemini 1.5 Flash to summarize changes, score risk, and explain findings on a live React dashboard.</p>
+                                <div class="album-tags">
+                                    <span>Python</span><span>FastAPI</span><span>React</span><span>Gemini</span>
+                                </div>
+                                <div class="album-actions">
+                                    <a href="https://reviewllama.vercel.app/" target="_blank" class="action-icon" title="Live Demo">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                            <polyline points="15 3 21 3 21 9"></polyline>
+                                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                                        </svg>
+                                    </a>
+                                    <a href="https://github.com/KanupriyaPrachande/reviewllama" target="_blank" class="action-icon" title="GitHub">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <path
+                                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                            </path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="nav-btn next-btn" id="playlist-next" aria-label="Next Project">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="playlist-scrubber">
+                    <span class="scrubber-time current-time" id="scrubber-current">0:00</span>
+                    <div class="scrubber-bar">
+                        <div class="scrubber-progress" id="scrubber-progress"></div>
+                    </div>
+                    <span class="scrubber-time total-time">0:05</span>
+                </div>
+            </div> <!-- end spotify-content -->
+
+            <!-- Project Detail Overlay (Terminal Style) -->
+            <div class="project-overlay hidden" id="project-overlay">
+                <div class="terminal-overlay-card macOS-terminal" id="terminal-overlay-card">
+                    <!-- Scanline effect -->
+                    <div class="scanlines"></div>
+
+                    <div class="terminal-overlay-header">
+                        <div class="terminal-buttons">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <span class="terminal-overlay-title">nebulaops — project.sh</span>
+                        <div class="terminal-right-actions">
+                            <span class="live-indicator"><span class="blink-dot"></span> live</span>
+                            <button class="terminal-close-btn" id="overlay-close">✕</button>
+                        </div>
+                    </div>
+
+                    <!-- Boot Sequence -->
+                    <div class="terminal-overlay-body boot-sequence" id="terminal-boot-sequence">
+                        <p class="term-text type-line1">$ ssh kanupriya@nebulaops --showcase</p>
+                        <p class="term-text type-line2 hidden">Connecting to prod-server-01... <span
+                                class="term-green">OK</span></p>
+                        <p class="term-text type-line3 hidden">Loading project manifest... <span
+                                class="term-green">DONE</span></p>
+                        <p class="term-text type-line4 hidden">──────────────────────────────────────</p>
+                    </div>
+
+                    <!-- Main Content -->
+                    <div class="terminal-overlay-body term-main-content hidden" id="terminal-main-content">
+                        <div class="term-ascii-header">
+                            ┌─────────────────────────────────────────┐
+                            │ 📁 NebulaOps — Live Infrastructure │
+                            │ Monitoring Dashboard │
+                            └─────────────────────────────────────────┘
+                        </div>
+
+                        <div class="term-section">
+                            <span class="term-label">ABOUT</span>
+                            <p class="term-text">
+                                → Terminal-style DevOps dashboard for<br>
+                                &nbsp;&nbsp;real-time infrastructure monitoring.<br>
+                                &nbsp;&nbsp;Built to feel like a real sysadmin tool.
+                            </p>
+                        </div>
+
+                        <div class="term-section">
+                            <span class="term-label">TECH STACK</span>
+                            <p class="term-text">
+                                → React &nbsp;&nbsp;→ FastAPI &nbsp;&nbsp;→ Python<br>
+                                → Node.js → JWT Auth &nbsp;→ Vercel
+                            </p>
+                        </div>
+
+                        <div class="term-section">
+                            <span class="term-label">WHAT MAKES IT DIFFERENT</span>
+                            <p class="term-text">
+                                → TUI-inspired interface — no bloat<br>
+                                → Live CPU, RAM, Disk metrics<br>
+                                → Docker container monitoring + logs<br>
+                                → Sandboxed demo mode for safe access<br>
+                                → Real JWT authentication system
+                            </p>
+                        </div>
+
+                        <div class="term-section">
+                            <span class="term-label">WHY I BUILT IT</span>
+                            <p class="term-text">
+                                → Frustrated with cluttered DevOps tools.<br>
+                                &nbsp;&nbsp;Wanted something minimal, fast,<br>
+                                &nbsp;&nbsp;and developer-first.
+                            </p>
+                        </div>
+
+                        <div class="term-section screenshots-section">
+                            <span class="term-comment"># /screenshots</span>
+                            <div class="screenshot-strip">
+                                <div class="screenshot-item">
+                                    <span class="screenshot-label">[ login-screen.png ]</span>
+                                    <img src="assets/login-screen.png" alt="Login Screen" class="strip-img"
+                                        onerror="this.src='c:\\Users\\Kanupriya\\OneDrive\\Desktop\\portfolio.png'">
+                                </div>
+                                <div class="screenshot-item">
+                                    <span class="screenshot-label">[ demo-mode.png ]</span>
+                                    <img src="assets/demo-mode.png" alt="Demo Mode" class="strip-img"
+                                        onerror="this.src='c:\\Users\\Kanupriya\\OneDrive\\Desktop\\portfolio.png'">
+                                </div>
+                                <div class="screenshot-item">
+                                    <span class="screenshot-label">[ dashboard.png ]</span>
+                                    <img src="assets/dashboard.png" alt="Dashboard" class="strip-img"
+                                        onerror="this.src='c:\\Users\\Kanupriya\\OneDrive\\Desktop\\portfolio.png'">
+                                </div>
+                                <div class="screenshot-item">
+                                    <span class="screenshot-label">[ metrics.png ]</span>
+                                    <img src="assets/metrics.png" alt="Metrics" class="strip-img"
+                                        onerror="this.src='c:\\Users\\Kanupriya\\OneDrive\\Desktop\\portfolio.png'">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="term-actions">
+                            <a href="https://devopsapp.vercel.app/" target="_blank" class="term-cmd-btn">[ $ open --live
+                                https://devopsapp.vercel.app ]</a>
+                            <a href="https://github.com/KanupriyaPrachande/NebulaOps" target="_blank"
+                                class="term-cmd-btn">[ $ git clone github.com/KanupriyaPrachande/NebulaOps ]</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Lightbox for Screenshots -->
+            <div class="lightbox hidden" id="screenshot-lightbox">
+                <button class="lightbox-close" id="lightbox-close">✕</button>
+                <img src="" alt="Expanded Screenshot" class="lightbox-img" id="lightbox-img">
+            </div>
+
+            <!-- Roverlog Modal -->
+            <div class="google-business-modal project-detail-modal hidden" id="roverlog-modal">
+                <div class="modal-content premium-app-card">
+                    <button class="modal-close frosted-close">✕</button>
+
+                    <div class="modal-hero-section">
+                        <div class="hero-animated-grid"></div>
+                        <img src="assets/project1.png" alt="Roverlog Dashboard" class="modal-hero-image" onerror="this.src='c:\\Users\\Kanupriya\\OneDrive\\Desktop\\portfolio.png'">
+                        <div class="modal-hero-overlay"></div>
+                        
+                        <div class="live-status-badge">
+                            <span class="pulsing-dot-green"></span>
+                            Live Demo
+                        </div>
+
+                        <div class="modal-hero-content">
+                            <h3 class="modal-title-overlay">Roverlog</h3>
+                            <div class="modal-tags floating-tags">
+                                <span>Python</span>
+                                <span>OpenCV</span>
+                                <span>Flask</span>
+                                <span>SQLite</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal-info-section">
+                        <p class="modal-description compact">A rover activity logging system that tracks, records, and visualizes rover movement data in real time. Features an intuitive dashboard with session history, path visualization, and exportable logs — built for space robotics enthusiasts and research teams.</p>
+
+                        <div class="modal-action-buttons">
+                            <a href="https://youtu.be/JE8_QfsgZME" target="_blank" class="premium-btn btn-primary">
+                                Live Link
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </a>
+                            <a href="https://github.com/KanupriyaPrachande/Roverlog-" target="_blank"
+                                class="premium-btn btn-ghost">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                    </path>
+                                </svg>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- NebulaOps Modal -->
+            <div class="google-business-modal project-detail-modal hidden" id="nebulaops-modal">
+                <div class="modal-content premium-app-card">
+                    <button class="modal-close frosted-close" id="nebulaops-modal-close">✕</button>
+
+                    <div class="modal-hero-section">
+                        <div class="hero-animated-grid"></div>
+                        <img src="assets/nebulaops-dashboard.png" alt="NebulaOps Dashboard" class="modal-hero-image" onerror="this.src='c:\\Users\\Kanupriya\\OneDrive\\Desktop\\portfolio.png'">
+                        <div class="modal-hero-overlay"></div>
+                        
+                        <div class="live-status-badge">
+                            <span class="pulsing-dot-green"></span>
+                            Live Demo
+                        </div>
+
+                        <div class="modal-hero-content">
+                            <h3 class="modal-title-overlay">NebulaOps</h3>
+                            <div class="modal-tags floating-tags">
+                                <span>JavaScript</span>
+                                <span>Python</span>
+                                <span>Node.js</span>
+                                <span>Vercel</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal-info-section">
+                        <p class="modal-description compact">A terminal-style DevOps web dashboard built with a React
+                            frontend and Node.js backend. Features live infrastructure monitoring, Docker container
+                            management, Kubernetes pod tracking, real-time logs, and admin login with JWT
+                            authentication.</p>
+
+                        <div class="modal-action-buttons">
+                            <a href="https://devopsapp.vercel.app/" target="_blank" class="premium-btn btn-primary">
+                                Live Link
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </a>
+                            <a href="https://github.com/KanupriyaPrachande/devopsapp" target="_blank"
+                                class="premium-btn btn-ghost">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                    </path>
+                                </svg>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TrendCipher Modal -->
+            <div class="google-business-modal project-detail-modal hidden" id="trendcipher-modal">
+                <div class="modal-content premium-app-card">
+                    <button class="modal-close frosted-close">✕</button>
+
+                    <div class="modal-hero-section">
+                        <div class="hero-animated-grid"></div>
+                        <img src="assets/project3.png" alt="TrendCipher Dashboard" class="modal-hero-image" onerror="this.src='c:\\Users\\Kanupriya\\OneDrive\\Desktop\\portfolio.png'">
+                        <div class="modal-hero-overlay"></div>
+                        
+                        <div class="live-status-badge">
+                            <span class="pulsing-dot-green"></span>
+                            Live Demo
+                        </div>
+
+                        <div class="modal-hero-content">
+                            <h3 class="modal-title-overlay">TrendCipher</h3>
+                            <div class="modal-tags floating-tags">
+                                <span>Python</span>
+                                <span>Streamlit</span>
+                                <span>NLP</span>
+                                <span>Machine Learning</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal-info-section">
+                        <p class="modal-description compact">An AI-powered trend analysis tool that deciphers patterns across social and market data using NLP and ML models. Provides real-time topic clustering, sentiment analysis, and visual trend reports — helping users stay ahead of emerging narratives.</p>
+
+                        <div class="modal-action-buttons">
+                            <a href="https://trendcipher-0912.streamlit.app/" target="_blank" class="premium-btn btn-primary">
+                                Live Link
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </a>
+                            <a href="https://github.com/KanupriyaPrachande/trendcipher" target="_blank"
+                                class="premium-btn btn-ghost">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                    </path>
+                                </svg>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Atlas Modal -->
+            <div class="google-business-modal project-detail-modal hidden" id="atlas-modal">
+                <div class="modal-content premium-app-card">
+                    <button class="modal-close frosted-close">✕</button>
+
+                    <div class="modal-hero-section">
+                        <div class="hero-animated-grid"></div>
+                        <img src="assets/project4.png" alt="Atlas Dashboard" class="modal-hero-image" onerror="this.src='c:\\Users\\Kanupriya\\OneDrive\\Desktop\\portfolio.png'">
+                        <div class="modal-hero-overlay"></div>
+
+                        <div class="modal-hero-content">
+                            <h3 class="modal-title-overlay">Atlas</h3>
+                            <div class="modal-tags floating-tags">
+                                <span>Python</span>
+                                <span>Streamlit</span>
+                                <span>LangChain</span>
+                                <span>GenAI</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal-info-section">
+                        <p class="modal-description compact">An AI-powered knowledge navigation tool designed to help users explore, map, and connect complex information intelligently. Atlas uses generative AI and LangChain pipelines to answer deep queries, surface hidden insights, and build structured knowledge graphs from unstructured data.</p>
+
+                        <div class="modal-action-buttons">
+                            <a href="https://github.com/kanupriyaprachande/atlas-" target="_blank"
+                                class="premium-btn btn-ghost" style="flex: 1;">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                    </path>
+                                </svg>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Reviewllama Modal -->
+            <div class="google-business-modal project-detail-modal hidden" id="reviewllama-modal">
+                <div class="modal-content premium-app-card">
+                    <button class="modal-close frosted-close">✕</button>
+
+                    <div class="modal-hero-section">
+                        <div class="hero-animated-grid"></div>
+                        <img src="assets/images/reviewllama.png" alt="Reviewllama Dashboard" class="modal-hero-image" onerror="this.src='assets/project5.png'">
+                        <div class="modal-hero-overlay"></div>
+
+                        <div class="live-status-badge">
+                            <span class="pulsing-dot-green"></span>
+                            Live Demo
+                        </div>
+
+                        <div class="modal-hero-content">
+                            <h3 class="modal-title-overlay">Reviewllama</h3>
+                            <div class="modal-tags floating-tags">
+                                <span>Python</span>
+                                <span>FastAPI</span>
+                                <span>React</span>
+                                <span>Gemini</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal-info-section">
+                        <p class="modal-description compact">A hybrid ML + LLM code review assistant that combines a TF-IDF + Logistic Regression classifier to scan PR diffs for security, bug, and performance anti-patterns with Gemini 1.5 Flash to summarize changes, score risk, and explain findings on a live React dashboard.</p>
+
+                        <div class="modal-action-buttons">
+                            <a href="https://reviewllama.vercel.app/" target="_blank" class="premium-btn btn-primary">
+                                Live Link
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </a>
+                            <a href="https://github.com/KanupriyaPrachande/reviewllama" target="_blank"
+                                class="premium-btn btn-ghost">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                    </path>
+                                </svg>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end spotify-player-box -->
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact-section terminal-bg">
+        <div class="section-container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="terminal-window">
+                <div class="terminal-header">
+                    <div class="terminal-buttons">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <div class="terminal-title">bash - portfolio-server - 80x24</div>
+                </div>
+                <div class="terminal-body">
+                    <div class="terminal-startup">
+                        <p class="startup-line">connecting to portfolio-server...</p>
+                        <p class="startup-line">status: <span class="text-green">ready</span></p>
+                        <br>
+                        <p class="startup-line">Type your message below to establish contact.</p>
+                        <br>
+                    </div>
+                    <form class="terminal-form" action="#" method="POST" id="contact-form" novalidate>
+                        <div class="cmd-line">
+                            <label for="name" class="prompt">&gt; enter_name:</label>
+                            <input type="text" id="name" name="name" class="cmd-input" placeholder="" required>
+                        </div>
+                        <div class="cmd-line">
+                            <label for="email" class="prompt">&gt; enter_email:</label>
+                            <input type="email" id="email" name="email" class="cmd-input" placeholder="" required>
+                        </div>
+                        <div class="cmd-line textarea-line">
+                            <label for="message" class="prompt">&gt; message:</label>
+                            <textarea id="message" name="message" class="cmd-input" rows="4" placeholder=""
+                                required></textarea>
+                        </div>
+                        <div class="cmd-line submit-line">
+                            <span class="prompt">&gt;</span>
+                            <button type="submit" class="cmd-submit">send_message<span
+                                    class="blinking-cursor"></span></button>
+                        </div>
+                    </form>
+                    <div id="form-feedback" class="cmd-line" style="margin-top: 15px; display: none;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Kanupriya Prachande. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
